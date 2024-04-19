@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Portfolio Website</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <a href="file:///E:/portfolio/home/index.html">Home</a>
+			<a href="file:///E:/portfolio/about/index.html">About</a>
+			<a href="file:///E:/portfolio/skills/index.html">Skills</a>
+			<a href="file:///E:/portfolio/portfolio/index.html">Portfolio</a>
+			<a href="">Contact</a>
+        </header>
+        <div class="container">
+            <div class="item1">
+                <h1>Contact Me</h1>
+                <i class="fa fa-envelope-square"> <span>sharmidevi745@gmail.com</span></i><br/><br/>
+                <i class="fa fa-phone-square"> <span>6381580065</span></i><br/><br/>
+                <i class="fa fa-linkedin-square"> <span>www.linkedin.com/in/sharmila-devi-832800281</span></i><br/><br/>
+                <i class="fa fa-github-square">  <span>https://github.com/Sharmi-11</span></i><br/>
+                <button onclick="window.open('document/Sharmila Devi.pdf')">Download CV</button>
+            </div>
+            <div class="item2">
+                <input type="text" placeholder="Your Name"/><br/><br/>
+                <input type="email" placeholder="Your Email"/><br/><br/>
+                <textarea placeholder="Your Message"></textarea><br><br/>
+                <button onclick="displayText()">Submit</button>
+                <div id="textfield" style="display: none;">You're Successfully Submitted</div>
+            </div>
+        </div><br/>
+        <footer>Copyright @ Sharmila. South gate, Madurai-626011.</footer>
+        <script>
+            function displayText(){
+                var text=document.getElementById("textfield");
+                text.style.display="block";
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,118 @@
+body{
+    background-color: black;
+    font-family: cursive;
+  }
+  
+header {
+    background-color: black; 
+    font-size: 20px;
+    text-align: right;
+    padding-right: 200px;
+    padding-top: 50px;
+    font-family: monospace;
+}
+
+a{
+  text-decoration: none;
+  font-family: cursive;
+}
+
+a:visited {
+  color: rgb(255, 255, 255);
+}
+
+a:hover {
+  color: rgb(241, 54, 54);
+  text-decoration: underline solid 2px;
+}
+
+.work-list{
+  display:grid;
+  grid-template-columns: auto auto auto;
+  row-gap: 60px;
+  column-gap: 50px;
+  margin-top: 50px;
+  margin-left: 15px;
+  margin-right: 15px;
+
+}
+
+.work{
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.work img{
+  width: 100%;
+  border-radius: 10px;
+  display: block;
+  transition: transform 0.5s;
+  height:300px;
+}
+
+.layer{
+  width: 100%;
+  height: 0;
+  background: linear-gradient(rgba(0,0,0,0.3), #fa0251);
+  border-radius: 10px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+  transition: height 0.5s;
+}
+
+.layer h3{
+  font-weight: 1200;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 30px;
+  font-family:'Times New Roman', Times, serif;
+}
+
+.layer a{
+  margin-top: 40px;
+  text-decoration: none;
+  margin-left: 42%; 
+}
+
+button{
+  border: 2px solid rgba(255, 255, 255, 0.719);
+  border-radius: 5px;
+  background-color: #ee3f76;
+  color: black;
+  font-size: 15px;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 20px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.work:hover img{
+  transform: scale(1.1);
+}
+
+.work:hover .layer{
+  height: 100%;
+}
+
+.layer p{
+  text-align: center;
+  color:white;
+  padding-right: 50px;
+  padding-left: 50px;
+  text-indent: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 17px;
+}
+
+h1{
+  color: rgb(235, 12, 105);
+  text-align: center;
+  font-size: 50px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-shadow: 2px 2px 4px pink;
+  padding-top: 50px;
+  padding-bottom: 40px;
+}

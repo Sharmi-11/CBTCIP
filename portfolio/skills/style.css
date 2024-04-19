@@ -1,0 +1,121 @@
+*{
+    background-color: black;
+    font-family: cursive;
+    color: aliceblue;
+}
+
+.container{
+    display: grid;
+    background-color: black;
+    grid-template-rows: 100px 100px 250px 250px 250px;
+    grid-template-columns: auto auto auto ;
+    gap: 50px;
+}
+
+.item1{
+    background-color: black; 
+    grid-column: 1/4;
+    font-size: 20px;
+    text-align: right;
+    padding-right: 200px;
+    padding-top: 50px;
+    font-family: monospace;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(255, 255, 255);
+}
+  
+a:hover {
+    color: rgb(241, 54, 54);
+    text-decoration: underline solid 2px;
+}
+
+.item2{
+    background-color: black;
+    color: white;
+    text-align: center;
+    grid-column: 1/4;
+}
+
+.item3{
+    background-color: white;
+    border-radius: 15px;
+    margin-left: 40px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.item4{
+    background-color: white;
+    text-align: center;
+    border-radius: 15px;
+    padding-top: 30px;
+}
+
+.item5{
+    background-color: white;
+    text-align: center;
+    border-radius: 15px;
+    margin-right: 40px;
+    padding-top: 30px;
+}
+
+.item6{
+    background-color: white;
+    text-align: center;
+    border-radius: 15px;
+    margin-left: 40px;
+    padding-top: 30px;
+}
+
+.item7{
+    background-color: white;
+    text-align: center;
+    border-radius: 15px;
+    padding-top: 30px;
+}
+
+.item8{
+    background-color: white;
+    text-align: center;
+    border-radius: 15px;
+    margin-right: 40px;
+    padding-top: 30px;
+    
+}
+
+.item9{
+    background-color: white;
+    text-align: center;
+    border-radius: 15px;
+    margin-left: 40px;
+    padding-top: 30px;
+}
+
+img{
+    width:100px;
+    height:100px
+}
+
+input[type="range"]{
+    accent-color: rgba(83, 241, 83, 0.952);
+}
+
+label{
+    background-color: white;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1{
+  color: rgb(235, 12, 105);
+  text-align: center;
+  font-size: 50px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-shadow: 2px 2px 4px pink;
+}
